@@ -1,0 +1,31 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Airflow
+airflow_dbt_project/logs/
+airflow_dbt_project/plugins/
+airflow_dbt_project/config/
+
+# dbt generated files
+airflow_dbt_project/walmart_project/target/
+airflow_dbt_project/walmart_project/dbt_packages/
+airflow_dbt_project/walmart_project/logs/
+
+# Local dbt credentials
+airflow_dbt_project/walmart_project/profiles.yml
+
+# IDE
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
