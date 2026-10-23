@@ -66,7 +66,7 @@ Apache Airflow orchestrates the workflow, while dbt handles transformations, sou
 
 ## Architecture
 
-![Walmart Data Pipeline Architecture](assets/architecture_diagram.png)
+![Walmart Data Pipeline Architecture](assets/architecture.png)
 
 The pipeline follows a layered data modeling approach:
 
